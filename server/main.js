@@ -26,11 +26,7 @@ Meteor.startup(() => {
     [
       'First Task',
       'Second Task',
-      'Third Task',
-      'Fourth Task',
-      'Fifth Task',
-      'Sixth Task',
-      'Seventh Task'
+      'Third Task'
     ].forEach(taskText => insertTask(taskText, user));
   }
 });
